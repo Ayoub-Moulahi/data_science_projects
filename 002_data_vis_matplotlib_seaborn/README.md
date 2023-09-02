@@ -1,4 +1,4 @@
-# Data Visualization Project: [Project Name]
+# Data Visualization Project:
 
 ## Overview
 
