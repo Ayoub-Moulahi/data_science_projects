@@ -1,0 +1,49 @@
+.body{
+    height : 100%;
+    width : 100%;
+
+}
+.container{
+    color: whitesmoke;
+    font-size:5rem;
+    background:#1E4747;
+    height: 92vh;
+    width: 95vw;
+    border: 2px solid red;
+    padding: 2rem;
+    display: flex;
+
+}
+.main, .aside{
+    height:100%;
+    border: 0.5rem solid #548784;
+    padding:1.5rem;
+    display: flex;
+    flex-wrap:wrap;
+}
+.main{
+    width:38%;
+}
+.aside{
+    width:28%;
+}
+.left, .central, .right{
+    padding:5px;
+    width:95%;
+    border-bottom:4px solid #548784;
+}
+.left, .right{
+    height:30%;
+}
+.central{
+    font-size:1.5rem;
+    height:47%;
+    color: darkgoldenrod;
+
+}
+#continent_dropdown, #countries_dropdown,#year_dropdown{
+    padding:3px;
+    #width: 8rem;
+    height: 3rem;
+    color: darkgoldenrod;
+}
